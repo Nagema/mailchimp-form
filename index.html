@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -28,7 +29,10 @@
           <input class="input-box" type="email" required/>
           <label class="input-label">Username</label>
           <input class="input-box" type="text" required />
-          <label class="input-label">Password</label>
+          <div class="password-label-wrapper">
+            <label class="input-label">Password</label>
+            <button class="show-action">Show</button>
+          </div>
           <input class="input-box" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{4,6}$" required>
           <ul class="indications-bullets">
             <li>One lowercase character</li>

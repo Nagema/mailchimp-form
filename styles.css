@@ -3,9 +3,13 @@
   font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   font-size: 12px;
 }
+a {
+  color: #007c89;
+}
 .form-wrapper {
   display: flex;
   max-width: 80vh;
+  min-width: 80vh;
   margin: auto;
   margin-top: 5%;
   border: solid;
@@ -17,7 +21,7 @@
 .main-title {
   font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
   font-weight: 300;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 0;
 }
 
@@ -25,14 +29,16 @@
   font-weight: 300;
   line-height: 1.5;
   font-size: 14px;
-  max-width: 80%;
+  max-width: 95%;
 }
 .logo-wrapper {
   margin: 1% 2%;
+  padding-top: 8%;
+  padding-right: 30px;
 }
 
 .logo-image {
-  height: 12vh;
+  height: 18vh;
 }
 
 .checkbox-form {
@@ -51,7 +57,7 @@
 }
 .indications-bullets li::before {
   content: "\2022";
-  color: lightseagreen;
+  color: #007c89;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -69,6 +75,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   font-size: 12px;
+  max-width: 90%;
 }
 
 .submit-wrapper p {
@@ -85,18 +92,30 @@
 
 .input-box {
   margin: 8px 0;
-  width: 80%;
-  height: 3.5vh;
+  width: 90%;
+  height: 4vh;
 }
 
 .signup-button {
   margin-right: 30px;
   background-color: transparent;
   border-style: solid;
-  width: 120px;
+  width: 50%;
   height: 40px;
 }
 .input-label{
   font-size: 14px;
   font-weight: 500;
+  margin-top: 10px;
+}
+.password-label-wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 92%;
+}
+.show-action{
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: #007c89;
 }
