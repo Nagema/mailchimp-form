@@ -1,3 +1,46 @@
 .form-wrapper{
     display: flex;
+    justify-content: center;
+    border: solid;
+    width: 60vh;
+}
+
+.logo-wrapper{
+    margin: 1% 2%
+}
+
+.logo-image{
+    height: 12vh;
+}
+
+.checkbox-form{
+    display: flex;
+}
+
+.indications-bullets{
+    display: flex;
+    padding: 0;
+}
+.indications-bullets ul{
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-wrapper{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;    
+}
+
+.input-box{
+    width: 40vh;
+    height: 2vh;
+    margin: 10px 0;
 }
