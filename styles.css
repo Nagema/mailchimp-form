@@ -1,8 +1,14 @@
 .form-wrapper {
     display: flex;
-    justify-content: center;
+    max-width: 60vh;
+    margin: auto;
     border: solid;
-    width: 60vh;
+    padding: 2%;
+    border-width: 1px;
+}
+
+.main-title{
+    font-family:'Means Web';
 }
 
 .logo-wrapper {
@@ -18,16 +24,22 @@
 }
 
 .indications-bullets {
-    display: flex;
-    padding: 0;
-}
-.indications-bullets ul {
     padding: 0;
     margin-left: 20px;
     margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+    list-style: none;
 }
-
-
+.indications-bullets li::before {
+    content: "\2022";
+    color: lightseagreen;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
 .form{
     display: flex;
@@ -38,27 +50,31 @@
     padding: 20px 0;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: start;    
+    justify-content: space-between;    
+}
+
+.submit-wrapper p {
+    margin-top: 0;
+}
+
+.submit-wrapper input {
+    align-self: flex-start;
+    width: 2vh;
+    height: 2vh;
+    margin-top: 0;
+    margin-right: 10px;
 }
 
 .input-box {
-    width: 40vh;
+    margin: 8px 0;
+    width: 80%;
     height: 2vh;
-    margin: 10px 0;
 }
+
 .signup-button {
     margin-right: 30px;
     background-color: transparent;
     border-style: solid;
     width: 120px;
     height: 40px;
-}
-.checkbox-form input {
-    width: 30px;
-    margin-top: -20px;
-
-}
-.checkbox-form p {
-    margin-top: 0;
-    padding: 0 10px;
 }
