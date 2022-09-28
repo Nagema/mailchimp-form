@@ -1,46 +1,64 @@
-.form-wrapper{
+.form-wrapper {
     display: flex;
     justify-content: center;
     border: solid;
     width: 60vh;
 }
 
-.logo-wrapper{
+.logo-wrapper {
     margin: 1% 2%
 }
 
-.logo-image{
+.logo-image {
     height: 12vh;
 }
 
-.checkbox-form{
+.checkbox-form {
     display: flex;
 }
 
-.indications-bullets{
+.indications-bullets {
     display: flex;
     padding: 0;
 }
-.indications-bullets ul{
+.indications-bullets ul {
     padding: 0;
     margin-left: 20px;
     margin-right: 50px;
 }
+
+
 
 .form{
     display: flex;
     flex-direction: column;
 }
 
-.submit-wrapper{
+.submit-wrapper {
     padding: 20px 0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;    
 }
 
-.input-box{
+.input-box {
     width: 40vh;
     height: 2vh;
     margin: 10px 0;
+}
+.signup-button {
+    margin-right: 30px;
+    background-color: transparent;
+    border-style: solid;
+    width: 120px;
+    height: 40px;
+}
+.checkbox-form input {
+    width: 30px;
+    margin-top: -20px;
+
+}
+.checkbox-form p {
+    margin-top: 0;
+    padding: 0 10px;
 }
