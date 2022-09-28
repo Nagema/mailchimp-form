@@ -1,3 +1,8 @@
+
+*{
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+}
 .form-wrapper {
   display: flex;
   max-width: 80vh;
@@ -10,9 +15,16 @@
 }
 
 .main-title {
-  font-family: "Means Web";
+  font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+  font-size: 45px;
+  margin-bottom: 0;
 }
 
+.form-main-text{
+  font-weight: 300;
+  line-height: 1.5;
+}
 .logo-wrapper {
   margin: 1% 2%;
 }
@@ -33,6 +45,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10%;
   list-style: none;
+  font-size: 12px;
 }
 .indications-bullets li::before {
   content: "\2022";
@@ -53,6 +66,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  font-size: 12px;
 }
 
 .submit-wrapper p {
@@ -79,4 +93,8 @@
   border-style: solid;
   width: 120px;
   height: 40px;
+}
+.input-label{
+  font-size: 14px;
+  font-weight: 500;
 }
