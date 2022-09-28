@@ -24,6 +24,8 @@
 .form-main-text{
   font-weight: 300;
   line-height: 1.5;
+  font-size: 14px;
+  max-width: 80%;
 }
 .logo-wrapper {
   margin: 1% 2%;
